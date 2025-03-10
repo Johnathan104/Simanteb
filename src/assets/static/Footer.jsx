@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className='py-4 secondary-bg sim-footer'>
         <div className='d-flex flex-column align-items-center'>
-            <img className='footer-logo w-fit' src = '/public/simanteb.avif'></img>
+            <img className='footer-logo w-fit' src = '/Simanteb/simanteb.avif'></img>
             <div className="d-flex w-fit">
             <ul class="d-flex primary-text mt-4 w-fit">
                 <li class="nav-item me-2">

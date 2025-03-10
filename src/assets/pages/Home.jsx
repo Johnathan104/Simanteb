@@ -12,7 +12,7 @@ function Home() {
 
         {/* Dark Overlay */}
         <video className="background-video" autoPlay loop muted>
-            <source  src="/nzeb.mp4" type="video/mp4" />
+            <source  src="/Simanteb/nzeb.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
         <div className="overlay d-flex justify-content-center align-items-center">
@@ -37,7 +37,7 @@ function Home() {
         <div className="container home2 d-flex align-items-center">
           <div>
             <h1>Tentang SIMANTEB</h1>
-            <img  src="/home1.png" alt="no image" />
+            <img  src="/Simanteb/home1.png" alt="no image" />
           </div>
           <div className='home2-descriptor ms-5'>
             <p> <b>SIMANTEB</b> adalah platform inovatif yang menghadirkan sistem 
@@ -61,19 +61,19 @@ function Home() {
           
           <div className="d-flex  w-100 home3-imgset justify-content-evenly">
             <div>
-              <img className ="home3-img"  src="/home2,1.png" alt="" />
+              <img className ="home3-img"  src="/Simanteb/home2,1.png" alt="" />
               <p className="h3 atyp my-4">Integrasi BIM(Building Information Modeling)</p>
               <p>Visualisasikan dan kelola aset gedung sekolah secara detail dengan model Building Information Modeling (BIM) yang terintegrasi.</p>
               <button className="btn btn-primary primary-bg text-light" id="bim">Read more</button>
             </div>
             <div>
-              <img className ="home3-img"  src="/home2,2.png" alt="" />
+              <img className ="home3-img"  src="/Simanteb/home2,2.png" alt="" />
               <p className="h3 atyp my-4">Berbasis Work Breakdown Structure (WBS)</p>
               <p>Organisasikan pekerjaan dengan jelas menggunakan Work Breakdown Structure (WBS) untuk efisiensi maksimal.</p>
               <button className="btn btn-primary primary-bg text-light" id="wbs">Read more</button>
             </div>
             <div>
-              <img className ="home3-img"  src="/home2,3.png" alt="" />
+              <img className ="home3-img"  src="/Simanteb/home2,3.png" alt="" />
               <p className="h3 atyp my-4">Pedoman dan Standard Operational Procedure (SOP)</p>
               <p>Ikuti prosedur kerja standar (SOP) dan pedoman yang telah ditetapkan untuk memastikan pencapaian kualitas dan konsistensi.</p>
               <button className="btn btn-primary primary-bg text-light" id="sop">Read more</button>
@@ -85,11 +85,11 @@ function Home() {
       <div className="home4  py-5 primary-bg text-light">
         <h1 className='my-5 atyp'>Didukung oleh:</h1>
         <div className="d-flex my-5 home4-sponsors w-100 justify-content-evenly align-items-center">
-          <img className='sponsor-logo'  src="/uiTeknik.png" alt="" />
-          <img className='sponsor-logo'  src="/sman96.png" alt="" />
-          <img className='sponsor-logo'  src="/pemprov.png" alt="" />
-          <img className='sponsor-logo'  src="/blue_triangle.png" alt="" />
-          <img className='sponsor-logo'  src="/adhi.png" alt="" />
+          <img className='sponsor-logo'  src="/Simanteb/uiTeknik.png" alt="" />
+          <img className='sponsor-logo'  src="/Simanteb/sman96.png" alt="" />
+          <img className='sponsor-logo'  src="/Simanteb/pemprov.png" alt="" />
+          <img className='sponsor-logo'  src="/Simanteb/blue_triangle.png" alt="" />
+          <img className='sponsor-logo'  src="/Simanteb/adhi.png" alt="" />
         </div>
       </div>
       <div className="home5 bg-light py-5">
@@ -97,66 +97,66 @@ function Home() {
         
         <div className="d-flex w-100 justify-content-evenly align-items-center">
           <div className='contact-pic'>
-            <img src="contact0,1.png" alt="" />
+            <img src="/Simanteb/contact0,1.png" alt="" />
             <p className='h5'>Ir. Hans Dermawan, S.Pd., M.T</p>
           </div>
           <div className='contact-pic'>
-            <img src="contact0,2.png" alt="" />
+            <img src="/Simanteb/contact0,2.png" alt="" />
             <p className="prof-yusul-pic h5">Prof. Dr. Ir. Yusuf Latief, M.T.</p>
           </div>
           <div className='contact-pic'>
-            <img src="contact0,3.png" alt="" />
+            <img src="/Simanteb/contact0,3.png" alt="" />
             <p className='h5'>Naufal Budi Laksono, S.T., M.T.</p>
           </div>
         </div>
         <div className="d-flex w-100 justify-content-evenly align-items-center">
           <div className="contact-pic">
-            <img src="contact1.png" alt="" />
+            <img src="/Simanteb/contact1.png" alt="" />
             <p className='h5'>Nazla Khalda Khairunisya</p>
           </div>
 
           <div className="contact-pic">
-            <img src="contact2.png" alt="" />
+            <img src="/Simanteb/contact2.png" alt="" />
             <p className='h5'>Nadasyifa Adika Irnandhita</p>
           </div>
 
           <div className="contact-pic">
-            <img src="contact3.png" alt="" />
+            <img src="/Simanteb/contact3.png" alt="" />
             <p className='h5'>Kethlin Zaneta</p>
           </div>
 
           <div className="contact-pic">
-            <img src="contact4.png" alt="" />
+            <img src="/Simanteb/contact4.png" alt="" />
             <p className='h5'>Shakila Nurivana</p>
           </div>
 
           <div className="contact-pic">
-            <img src="contact5.png" alt="" />
+            <img src="/Simanteb/contact5.png" alt="" />
             <p className='h5'>Nizmi Neysa Aldina</p>
           </div>
         </div>
         <div className="d-flex justify-content-evenly  my-5 align-items-center w-100">
           <div className="contact-pic">
             <div className='contact-circle'>
-                <img src="contact6.png" alt="" />
+                <img src="/Simanteb/contact6.png" alt="" />
               </div>
               <p className='h5'>Cintia Oktaviana</p>
             </div>
             <div className="contact-pic">
               <div className='contact-circle'>
-                <img src="contact7.png" alt="" />
+                <img src="/Simanteb/contact7.png" alt="" />
               </div>
               <p className='h5'>Alya Nisrina Orvala</p>
             </div>
             <div className="contact-pic">
               <div className='contact-circle'>
-                <img src="contact8.5.png" alt="" />
+                <img src="/Simanteb/contact8.5.png" alt="" />
               </div>
               <p className='h5'>Fayza Alyaa Rizka Ashila</p>
             </div>
             <div className="contact-pic">
               <div className='contact-circle'>
-                <img src="contact8.png" alt="" />
+                <img src="/Simanteb/contact8.png" alt="" />
               </div>
               <p className='h5'>Syakirah Syukiri</p>
             </div>
@@ -164,19 +164,19 @@ function Home() {
         <div className="d-flex justify-content-evenly  my-5 align-items-center w-100">
             <div className="contact-pic">
                 <div className='contact-circle'>
-                  <img src="contact9.png" alt="" />
+                  <img src="/Simanteb/contact9.png" alt="" />
                 </div>
                 <p className='h5'>Errydani Putra Dayuh</p>
             </div>  
             <div className="contact-pic">
                 <div className='contact-circle'>
-                  <img src="contact10.png" alt="" />
+                  <img src="/Simanteb/contact10.png" alt="" />
                 </div>
                 <p className='h5'>Muhammad Nauhal Ash Shidqy</p>
             </div> 
             <div className="contact-pic">
                 <div className='contact-circle'>
-                  <img className="reynald"src="contact11.png" alt="" />
+                  <img className="reynald"src="/Simanteb/contact11.png" alt="" />
                 </div>
                 <p className='h5'>Raynald Yekoniah</p>
             </div> 

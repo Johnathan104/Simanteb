@@ -81,8 +81,8 @@ function Nav() {
       <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div className="navbar-brand d-flex align-items-center">
-              <img className ="header-logo1" src='/public/image.png'/>
-              <img className='header-logo2' src = '/public/simanteb.avif'></img>
+              <img className ="header-logo1" src='/Simanteb/image.png'/>
+              <img className='header-logo2' src = '/Simanteb/simanteb.avif'></img>
             </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -90,16 +90,16 @@ function Nav() {
           <div class=" collapse navbar-collapse w-fit" id="navbarNav">
             <ul class="navbar-nav primary-text">
               <li class="nav-item">
-                <Link to={"/"} class="nav-link active primary-text" id="home">Beranda</Link>
+                <Link to={"/Simanteb"} class="nav-link active primary-text" id="home">Beranda</Link>
               </li>
               <li class="nav-item">
-                <Link to={"/Sman96"} class="nav-link primary-text" id="sman">SMAN 96 Jakarta</Link>
+                <Link to={"/Simanteb/Sman96"} class="nav-link primary-text" id="sman">SMAN 96 Jakarta</Link>
               </li>
               <li class="nav-item primary-text">
-                <Link to={"/Bim"} class="nav-link primary-text" id="bim" >Pemeliharaan dan Perawatan</Link>
+                <Link to={"/Simanteb/Bim"} class="nav-link primary-text" id="bim" >Pemeliharaan dan Perawatan</Link>
               </li>
               <li class="nav-item primary-text">
-                <Link to={"/Manual"} class="nav-link primary-text " id="manual">User Manual</Link>
+                <Link to={"/Simanteb/Manual"} class="nav-link primary-text " id="manual">User Manual</Link>
               </li>
             </ul>
           </div>
