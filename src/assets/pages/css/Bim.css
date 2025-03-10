@@ -1,0 +1,28 @@
+.image-container{
+    height:600px;
+    overflow: hidden;
+    background-image: url("/Bim-header.png");
+    background-size:300%;
+    background-position: center;
+    width:50%;
+    margin-right: 50px;
+}
+.Bim-text{
+    max-width: 80%;
+    height: 100%;
+}
+.Bim-head{
+    text-align: left;
+}
+@media (max-width: 760px) {
+    .secondary-btn{
+        width: 100%;
+    }
+    .image-container{
+        width:100%;
+    }
+    .Bim-head{
+        flex-direction: column;
+        text-align: center;
+    }
+}
